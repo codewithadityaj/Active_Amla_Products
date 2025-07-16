@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Amla Products Website 
 
-## Getting Started
+A modern and responsive website built using **Next.js** to showcase a variety of Amla-based health products. This project serves as a frontend for promoting Ayurvedic and organic products in a clean and attractive layout.
 
-First, run the development server:
+## 🛍️ Featured Products
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Amla Juice  
+- Amla Candy  
+- Amla Supari  
+- Amla Powder  
+- Amla Pickle  
+- Amla Murabba  
+- Amla Refreshment (spiced slices)
+
+## 🧰 Tech Stack
+
+- **Framework**: Next.js  
+- **Styling**: CSS Modules / Tailwind CSS *(mention if used)*  
+- **Image Optimization**: `next/image`  
+- **Deployment**: Vercel / GitHub Pages *(if deployed)*
+
+## 📁 Folder Structure
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+/app
+├── page.tsx           # Main homepage
+├── components/        # Reusable UI components
+├── public/            # Product images & static assets
+├── styles/            # Global and modular styles
+├── next.config.js     # Next.js config
+├── tsconfig.json      # TypeScript config
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+To run the project locally:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git clone https://github.com/codewithadityaj/Active_Amla_Products.git
+cd Active_Amla_Products
+npm install
+npm run dev
+````
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit `http://localhost:3000` in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Demo
 
-## Deploy on Vercel
+<img width="1919" height="962" alt="image" src="https://github.com/user-attachments/assets/c55c9296-8b17-4e37-ab00-93b77b0a03e9" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Features
+
+* Product showcase with clean layout and high-quality images
+* Fully responsive and SEO-friendly
+* Optimized with Next.js for fast performance
+* Easy to maintain and extend for business use
+
+## 📦 Deployment
+
+If you want to deploy:
+
+* **Vercel** (Recommended):
+
+  > Connect this repo to [https://vercel.com](https://vercel.com)
+  > Vercel auto-detects Next.js apps and deploys instantly
+
+* **Other options**: GitHub Pages (via static export), Netlify
+
+## 🙌 Author
+
+Developed by [Aditya Ashok Jadhav](https://github.com/codewithadityaj)
+MIT Chhatrapati Sambhajinagar
+
+---
+
+Feel free to use, extend, or deploy this project for business or academic purposes.
